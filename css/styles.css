@@ -2,6 +2,78 @@
   max-height:450px;
 }
 
+.nav-border {
+  margin-bottom: 0;
+}
+
 body {
-  background-color: #bfc0c1;
+  background: linear-gradient(to right, rgba(42,52,57,1), rgba(42,52,57,0.7) 10%, rgba(42,52,57,0.6), rgba(42,52,57,0.6), rgba(42,52,57,0.7) 90%, rgba(42,52,57,1));
+  margin:0;
+}
+
+.jumbotron {
+  background-image: url("../img/discs.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.jumbotron h2 {
+  color:#FFFFFF;
+  margin-top:350px;
+}
+
+.thumbnail {
+  background: linear-gradient(to bottom right, #d4282b, #d66b32, #d9aa42);
+}
+
+.thumbnail h4 {
+  text-decoration: none;
+  color: #0e0e0f;
+}
+
+.thumb-img {
+  max-height:200px;
+}
+
+footer {
+  background-color: #0e0e0f;
+  padding-top:10px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.foot-logo {
+  max-height: 75px;
+  border-radius: 50%;
+}
+
+.icon {
+    color:#696969;
+    font-size: 36px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.icon:hover .fa-facebook {
+    color:#3b5998;
+    transition: 0.5s ease-in;
+}
+
+.icon:hover .fa-instagram {
+    color:#e95950;
+    transition: 0.5s ease-in;
+}
+
+.icon:hover .fa-youtube {
+    color:#ff0000;
+    transition: 0.5s ease-in;
 }
