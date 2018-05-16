@@ -2,8 +2,14 @@
   max-height:450px;
 }
 
-.nav-border {
-  margin-bottom: 0;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 body {
@@ -16,7 +22,6 @@ body {
   background-size: cover;
   background-position: center;
   height: 500px;
-  margin-top: 0;
 }
 
 .flex {
